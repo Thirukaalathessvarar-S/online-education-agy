@@ -304,7 +304,7 @@ a {
 .course-img-container img {
     height: 100%;
 }
-/* Vision Context: Derived positions based on extraction instructions */
+
 .course-sale-badge {
     background-color: var(--decor-red);
     color: var(--text-white);
@@ -321,8 +321,6 @@ a {
     right: 20px;
 }
 .course-action-icon {
-    width: 40px;
-    height: 40px;
     background-color: var(--text-white);
     border-radius: 50%;
     padding: 10px;

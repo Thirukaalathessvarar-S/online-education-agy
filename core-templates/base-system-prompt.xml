@@ -66,5 +66,8 @@
         <rule priority="3">Third Priority: Use custom media queries in css/style.css for overrides and fine-tuning only when Bootstrap classes and grid are insufficient. Order custom media queries desktop-down from largest to smallest (980px, 757px, 575px, 320px)—NOT a mobile-first approach.</rule>
         <rule priority="strict">Never write inline styles (style="" attributes) inside HTML under any circumstance.</rule>
         <rule priority="strict">All custom CSS must be strictly written in the external stylesheet (css/style.css).</rule>
+        <rule priority="strict" category="media_query">Responsive Scaling for Non-Desktop Breakpoints: For every screen width other than the default desktop screen width (e.g., 980px, 757px, 575px, 320px):
+            - Progressively decrease button padding, anchor padding, input padding, element margin-bottom (such as h1-h6, p, div, span), layout gaps, and typography font sizes as screen width decreases.
+            - Section Padding Exception Rule: Section padding must strictly follow 90px for 980px and 757px breakpoints, and 60px for 575px and 320px breakpoints.</rule>
     </css_rules>
 </system_prompt>

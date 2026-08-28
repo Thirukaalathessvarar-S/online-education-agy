@@ -49,3 +49,15 @@
   not mobile-first.
   • No Inline Styles (Strict): Never use style="" attributes in HTML under any circumstance.
   • External CSS Only (Strict): All custom styles must reside exclusively in css/style.css.
+  ──────
+  ### 6. Media Query Responsive Scaling Rules (Category: Media Query)
+
+  • Scope: Applied strictly to non-desktop screen widths (980px, 757px, 575px, 320px).
+  • Progressive Decreases Over Diminishing Screen Width:
+      • Button, anchor, and input padding
+      • Element margin-bottom (h1–h6, p, div, span)
+      • Layout gaps (flex and grid gap)
+      • Typography font sizes
+  • Section Padding Exception Rule (Strict):
+      • 980px & 757px: 90px
+      • 575px & 320px: 60px
