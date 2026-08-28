@@ -1,0 +1,1795 @@
+Frame: Body
+background: #26335D
+
+Frame: Hero Section (level 1)
+
+    Frame: Header (level 2)
+    Layout: Container-fluid , height-10vh
+    Background: #2C799A
+
+        Frame: Header-container (Level 3)
+        Layout: Container d-flex flex-column justify-content-between
+
+            Frame: Navbar-brand (Level 4)
+            Content: "BrandName"
+            Typography:
+                font-family: Montserrat;
+                font-weight: 700;
+                font-size: 24px;
+                leading-trim: NONE;
+                line-height: 32px;
+                letter-spacing: 0.1px;
+                color: #FFFFFF;
+
+            Frame: Navbar-collapse (Level 4)
+                
+                Frame: ul (Level 5)
+                Layout: d-flex gap-21px
+
+                    Frame: li (Level 6)
+                    Content: "Home"
+                    Typography:
+                        font-family: Montserrat;
+                        font-weight: 700;
+                        font-size: 14px;
+                        leading-trim: NONE;
+                        line-height: 24px;
+                        letter-spacing: 0.2px;
+                        text-align: center;
+                        color: #FFFFFF;
+
+                    Frame: li (Level 6)
+                    Content: "Product"
+                    Typography:
+                        font-family: Montserrat;
+                        font-weight: 700;
+                        font-size: 14px;
+                        leading-trim: NONE;
+                        line-height: 24px;
+                        letter-spacing: 0.2px;
+                        text-align: center;
+                        color: #FFFFFF;
+                    
+                    Frame: li (Level 6)
+                    Content: "Pricing"
+                    Typography:
+                        font-family: Montserrat;
+                        font-weight: 700;
+                        font-size: 14px;
+                        leading-trim: NONE;
+                        line-height: 24px;
+                        letter-spacing: 0.2px;
+                        text-align: center;
+                        color: #FFFFFF;
+
+                    Frame: li (Level 6)
+                    Content: "Contact"
+                    Typography:
+                        font-family: Montserrat;
+                        font-weight: 700;
+                        font-size: 14px;
+                        leading-trim: NONE;
+                        line-height: 24px;
+                        letter-spacing: 0.2px;
+                        text-align: center;
+                        color: #FFFFFF;
+
+                Frame: ul (Level 5)
+                Layout: d-flex gap:45px
+
+                    Frame: li (Level 6)
+                    content:"Login"
+                    Typography:
+                        font-family: Montserrat;
+                        font-weight: 700;
+                        font-size: 14px;
+                        leading-trim: NONE;
+                        line-height: 22px;
+                        letter-spacing: 0.2px;
+                        text-align: right;
+ 
+                    Frame: li (Level 6)
+                    content:"Sign up &nbsp;&nbsp;"
+                    content:icon(arrow-right)
+                    Layout:
+                        width: 137;
+                        height: 52;
+                        angle: 0 deg;
+                        opacity: 1;
+                        gap: 15px;
+                        padding-top: 15px;
+                        padding-right: 25px;
+                        padding-bottom: 15px;
+                        padding-left: 25px;
+                        border-radius: 5px;
+                        background:#8D5CF6;
+                    Typography:
+                        font-family: Montserrat;
+                        font-weight: 700;
+                        font-size: 14px;
+                        leading-trim: NONE;
+                        line-height: 22px;
+                        letter-spacing: 0.2px;
+
+
+            Frame: Navbar-toggler(Level 4)
+            content;default
+            layout:default
+
+                
+    Frame: Hero (Level 2)
+    Layout: container-fluid , height-90vh , position-relative
+
+        Frame: container (Level 3)
+        Layout: d-flex justify-content-center align-items-start
+
+            Frame: Hero box (Level 4)
+            Layout: d-flex flex-column justify-content-center gap-35px
+
+                Frame: h5 (Level 5)
+                content: "Online training"
+                Typography:
+                    font-family: Montserrat;
+                    font-weight: 700;
+                    font-size: 16px;
+                    leading-trim: NONE;
+                    line-height: 24px;
+                    letter-spacing: 0.1px;
+                    color:#FFFFFF;
+                
+                Frame: h1 (Level 5)
+                content: "25K+ STUDENTS TRUST US"
+                Typography:
+                    font-family: Montserrat;
+                    font-weight: 700;
+                    font-size: 58px;
+                    leading-trim: NONE;
+                    line-height: 80px;
+                    letter-spacing: 0.2px;
+                    color:#FFFFFF;
+                
+                Frame: h4 (Level 5)
+                content: "Our goal is to make online education work for everyone"
+                Typography:
+                    font-family: Montserrat;
+                    font-weight: 400;
+                    font-size: 20px;
+                    leading-trim: NONE;
+                    line-height: 30px;
+                    letter-spacing: 0.2px;
+                    color:#FFFFFF;
+
+                Frame: button group (Level 5)
+                Layout: d-flex gap-10px
+
+                    Frame: button1 (Level 6)
+                    content:"Get Quote Now"
+                    Layout:
+                        width: 193;
+                        height: 52;
+                        angle: 0 deg;
+                        opacity: 1;
+                        gap: 10px;
+                        padding-top: 15px;
+                        padding-right: 40px;
+                        padding-bottom: 15px;
+                        padding-left: 40px;
+                        border-radius: 5px;
+                        background:#8D5CF6;
+                    Typography:
+                        font-family: Montserrat;
+                        font-weight: 700;
+                        font-size: 14px;
+                        leading-trim: NONE;
+                        line-height: 22px;
+                        letter-spacing: 0.2px;
+                        text-align: center;
+                        color:#FFFFFF;
+
+                    Frame: button2 (Level 6)
+                    content:"Learn More:
+                    Layout:
+                        width: 162;
+                        height: 52;
+                        angle: 0 deg;
+                        opacity: 1;
+                        gap: 10px;
+                        padding-top: 15px;
+                        padding-right: 40px;
+                        padding-bottom: 15px;
+                        padding-left: 40px;
+                        border-radius: 5px;
+                        border-width: 1px;
+                        border: 1px solid #ECECEC
+                    Typography:
+                        font-family: Montserrat;
+                        font-weight: 700;
+                        font-size: 14px;
+                        leading-trim: NONE;
+                        line-height: 22px;
+                        letter-spacing: 0.2px;
+                        text-align: center;
+                        color:#FFFFFF;
+
+
+    Frame: Hero:before (Level 2)
+    content:''
+    Background-image:assets/images/landing-background.svg
+    Background: no repeat , cover , 100% width , 100% height
+    z-index: behind hero box(level 4)
+
+
+Frame: Feature-section (Level 1)
+
+    Frame: Container (Level 2)
+    Layout: container row row-cols-3 gap-30px
+
+        Frame: Card (Level 3)
+        Layout: col d-flex justify-content-between flex-column padding-35px-40px-35px-40px gap-20px box-shadow: 0px 13px 19px 0px #00000012;
+        background: #FFFFFF;
+
+            Frame: Image container (Level 4)
+
+                Frame: Img (Level 5)
+                Layout: assets/images/school.svg object-fit-cover
+            
+            Frame: h5 (Level 4)
+            Content:"2,769 online courses"
+            Typography:
+                font-family: Montserrat;
+                font-weight: 700;
+                font-size: 16px;
+                leading-trim: NONE;
+                line-height: 24px;
+                letter-spacing: 0.1px;
+                color:#252B42;
+
+            Frame: Decor (Level 4)
+            Layout: height-2px width-50px
+            Background:#E74040
+
+            Frame: Paragraph (Level 4)
+            Content: "The gradual accumulation of information about atomic and small-scale behaviour..."
+            Typography:
+                font-family: Montserrat;
+                font-weight: 400;
+                font-size: 14px;
+                leading-trim: NONE;
+                line-height: 20px;
+                letter-spacing: 0.2px;
+                color: #737373;
+
+
+        Frame: Card (Level 3)
+        Layout: d-flex flex-column padding-35px-40px-35px-40px gap-20px box-shadow: 0px 13px 19px 0px #00000012;
+        background: #FFFFFF;
+
+            Frame: Image container (Level 4)
+
+                Frame: Img (Level 5)
+                Layout: assets/images/books.svg object-fit-cover
+            
+            Frame: h5 (Level 4)
+            Content:"Expert instruction"
+            Typography:
+                font-family: Montserrat;
+                font-weight: 700;
+                font-size: 16px;
+                leading-trim: NONE;
+                line-height: 24px;
+                letter-spacing: 0.1px;
+                color:#252B42;
+
+            Frame: Decor (Level 4)
+            Layout: height-2px width-50px
+            Background:#E74040
+
+            Frame: Paragraph (Level 4)
+            Content: "The gradual accumulation of information about atomic and small-scale behaviour..."
+            Typography:
+                font-family: Montserrat;
+                font-weight: 400;
+                font-size: 14px;
+                leading-trim: NONE;
+                line-height: 20px;
+                letter-spacing: 0.2px;
+                color: #737373;
+ 
+        Frame: Card (Level 3)
+        Layout: d-flex flex-column padding-35px-40px-35px-40px gap-20px box-shadow: 0px 13px 19px 0px #00000012;
+        background: #FFFFFF;
+
+            Frame: Image container (Level 4)
+
+                Frame: Img (Level 5)
+                Layout: assets/images/books.svg object-fit-cover
+            
+            Frame: h5 (Level 4)
+            Content:"Expert instruction"
+            Typography:
+                font-family: Montserrat;
+                font-weight: 700;
+                font-size: 16px;
+                leading-trim: NONE;
+                line-height: 24px;
+                letter-spacing: 0.1px;
+                color:#252B42;
+
+            Frame: Decor (Level 4)
+            Layout: height-2px width-50px
+            Background:#E74040
+
+            Frame: Paragraph (Level 4)
+            Content: "The gradual accumulation of information about atomic and small-scale behaviour..."
+            Typography:
+                font-family: Montserrat;
+                font-weight: 400;
+                font-size: 14px;
+                leading-trim: NONE;
+                line-height: 20px;
+                letter-spacing: 0.2px;
+                color: #737373;
+
+Frame: Expert-section (Level 1)
+
+    Frame: container (Level 2)
+    Layout: container d-flex justify-content-between 
+
+        Frame: Image Container (Level 3)
+
+            Frame: Img (Level 4)
+            Layout: assets/images/expert-teacher.svg width-100% object-fit-cover
+
+        Frame: Content container (Level 3)
+        Layout:Justify-content-center margin-left-auto
+
+            Frame: Content (Level 4)
+            Layout: d-flex flex-column gap-35px
+
+                Frame: Decor (Level 5)
+                Layout: width-94px height-7px 
+                Background: #E74040;
+
+                Frame: H2 (Level 5)
+                Content: "Our Experts Teacher"
+                Typography:
+                    font-family: Montserrat;
+                    font-weight: 700;
+                    font-size: 40px;
+                    leading-trim: NONE;
+                    line-height: 50px;
+                    letter-spacing: 0.2px;
+                    color:#FFFFFF;
+
+                Frame: Paragraph (Level 5)
+                Content: "Problems trying to resolve the conflict between the two major realms of Classical physics: Newtonian mechanics"
+                Typography:
+                    font-family: Montserrat;
+                    font-weight: 400;
+                    font-size: 14px;
+                    leading-trim: NONE;
+                    line-height: 20px;
+                    letter-spacing: 0.2px;
+                    color:#FFFFFF;
+
+                Frame: Link group (Level 5)
+                Layout:d-flex align-items-center gap-10px
+                Typography:
+                        font-family: Montserrat;
+                        font-weight: 700;
+                        font-size: 14px;
+                        leading-trim: NONE;
+                        line-height: 24px;
+                        letter-spacing: 0.2px;
+                        color:background: #8D5CF6;
+
+                    Frame: Anchor (Level 6)
+                    Content: "Learn More"
+
+                    Frame:Arrow (Level 6)
+                    content: icon(angle-right)
+
+Frame: Package-section (Level 1)
+
+    Frame: Container (Level 2)
+    Layout: container row row-cols-2 justify-content-between
+
+        Frame: Content Container (Level 3)
+        Layout: col d-flex justify-content-center margin-left-0
+
+            Frame: Decor (Level 4)
+            Layout: width-94px height-7px 
+            Background: #E74040
+
+            Frame: H2 (Level 4)
+            Content: "Approdable Packages"
+            Typography:
+                font-family: Montserrat;
+                font-weight: 700;
+                font-size: 40px;
+                leading-trim: NONE;
+                line-height: 50px;
+                letter-spacing: 0.2px;
+                color:#FFFFFF;
+
+            Frame: Link group (Level 4)
+                Layout:d-flex align-items-center gap-10px
+                Typography:
+                        font-family: Montserrat;
+                        font-weight: 700;
+                        font-size: 14px;
+                        leading-trim: NONE;
+                        line-height: 24px;
+                        letter-spacing: 0.2px;
+                        color:background: #8D5CF6;
+
+                    Frame: Anchor (Level 6)
+                    Content: "Learn More"
+
+                    Frame:Arrow (Level 6)
+                    content: icon(angle-right)
+
+            
+        Frame: Image Container (Level 3)
+        
+            Frame: Img (Level 4)
+            Layout: assets/images/books.svg width-100% object-fit-cover position-relative
+
+                Frame: Icon (Level 5)
+                Content: icon(fa-play)
+                Layout: position-absolute top-50% left-50% translate(-50%,-50%) padding-34.8px-36.8px background-#8D5CF6 width: 18.999996185302734 height: 22.9999942779541 angle: 0 deg opacity: 1
+
+Frame: Course-section (Level 1)
+
+    Frame: Container (Level 2)
+    Layout: d-flex flex-column align-items-start gap-80px
+
+        Frame: Heading Container (Level 3)
+        Layout: d-flex flex-column gap-10px
+
+            Frame: H6 (Level 4)
+            Content: "Practice Advice"
+            Typography:
+                font-family: Montserrat;
+                font-weight: 700;
+                font-size: 14px;
+                leading-trim: NONE;
+                line-height: 24px;
+                letter-spacing: 0.2px;
+                color:background: #8D5CF6;
+
+            Frame: H2 (Level 4)
+            Content: "Our Popular Courses"
+            Typography:
+                font-family: Montserrat;
+                font-weight: 700;
+                font-size: 40px;
+                leading-trim: NONE;
+                line-height: 50px;
+                letter-spacing: 0.2px;
+                color:#FFFFFF;
+            
+            Frame: Paragraph
+            Content: "Problems trying to resolve the conflict between the two major realms of Classical physics: Newtonian mechanics"
+            Typography:
+                font-family: Montserrat;
+                font-weight: 400;
+                font-size: 14px;
+                leading-trim: NONE;
+                line-height: 20px;
+                letter-spacing: 0.2px;
+                color:#FFFFFF;
+
+        Frame: Course Container (Level 3)
+        Layout: row row-cols-3 justify-content-center gap-10px or gutter-x-10px
+
+            Frame:col Card (Level 4)
+            Layout: d-flex flex-column
+
+                Frame: Image Container (Level 5)
+                Layout: position-relative
+
+                    Frame: Img (Level 6)
+                    Layout: assets/images/pencils.svg width:100% object-fit-cover display-block
+
+                    Frame: H6 (Level 6)
+                    Layout: position-absolute
+                    Content: "Sale'
+                    Typography:
+                        font-family: Montserrat;
+                        font-weight: 700;
+                        font-size: 14px;
+                        leading-trim: NONE;
+                        line-height: 24px;
+                        letter-spacing: 0.2px;
+                        text-align: center;
+                        color:#FFFFFF;
+
+                    Frame: Image Group (Level 6)
+                    Layout: d-flex gap-10px position-absolute
+
+                        Frame: Image Container (Level 7)
+
+                            Frame: Img (Level 8)
+                            Layout: assets/images/like.svg width-100% object-fit-cover
+
+                        Frame: Image Container (Level 7)
+
+                            Frame: Img (Level 8)
+                            Layout: assets/images/basket.svg width-100% object-fit-cover
+
+                        Frame: Image Container (Level 7)
+
+                            Frame: Img (Level 8)
+                            Layout: assets/images/views.svg width-100% object-fit-cover
+
+                Frame : Content Container (Level 5)
+                Layout: d-flex flex-column gap-10px padding-25px-25px-35px-25px
+
+                    Frame: Sub Content Container (Level 6)
+                    Layout: width-100% d-flex justify-content-between
+
+                        Frame: Link (Level 7)
+                        Content: "For Better Future"
+                        Typography:
+                            font-family: Montserrat;
+                            font-weight: 700;
+                            font-size: 14px;
+                            leading-trim: NONE;
+                            line-height: 24px;
+                            letter-spacing: 0.2px;
+                            color:#8D5CF6;
+
+                        Frame: Rating Group (Level 7)
+                        Layout: d-flex gap-5px padding-5px radius-20px
+                        Background: #26335D
+
+                            Frame: Icon (Level 8)
+                            Content:icon(fa-star)
+                            Layout: width-16 height-16 angle-0 deg opacity-1 
+                            Color: #FFCE31
+
+                            Frame: Small (Level 8)
+                            Content: "4.9"
+                            Typography:
+                                font-family: Montserrat;
+                                font-weight: 400;
+                                font-size: 12px;
+                                leading-trim: NONE;
+                                line-height: 16px;
+                                letter-spacing: 0.2px;
+                                color:#FFFFFF; 
+
+                    Frame: H5 (Level 6)
+                    content: "2,769 online courses"
+                    Typography:
+                        font-family: Montserrat;
+                        font-weight: 700;
+                        font-size: 16px;
+                        leading-trim: NONE;
+                        line-height: 24px;
+                        letter-spacing: 0.1px;
+                        color:#252B42;
+                    
+                    Frame: Paragraph (Level 6)
+                    Content:"We focus on ergonomics and meeting you where you work. It's only a keystroke away."
+                    Typography:
+                        font-family: Montserrat;
+                        font-weight: 400;
+                        font-size: 14px;
+                        leading-trim: NONE;
+                        line-height: 20px;
+                        letter-spacing: 0.2px;
+                        color:#737373;
+
+                    Frame: Sales Group (Level 6)
+                    Layout: d-flex gap-10px
+
+                        Frame: Image Container (Level 7)
+
+                            Frame:Img (Level 8)
+                            Layout: assets/images/download.svg width-100% object-fit-cover display-block
+
+                        Frame: H6 (Level 7)
+                        content:"15 Sales"
+                        Typography:
+                            font-family: Montserrat;
+                            font-weight: 700;
+                            font-size: 14px;
+                            leading-trim: NONE;
+                            line-height: 24px;
+                            letter-spacing: 0.2px;
+                            color:#737373
+
+                    Frame: Amount Group (Level 6)
+                    Layout: d-flex gap-5px
+
+                        Frame: H5 (Level 7)
+                        Content: "$16.48"
+                        Typography:
+                            font-family: Montserrat;
+                            font-weight: 700;
+                            font-size: 16px;
+                            leading-trim: NONE;
+                            line-height: 24px;
+                            letter-spacing: 0.1px;
+                            text-align: center;
+                            color:#BDBDBD;
+
+                        Frame: H5 (Level 7)
+                        Content: "$6.48"
+                        Typography:
+                            font-family: Montserrat;
+                            font-weight: 700;
+                            font-size: 16px;
+                            leading-trim: NONE;
+                            line-height: 24px;
+                            letter-spacing: 0.1px;
+                            text-align: center;
+                            color:#FF7B52;
+
+                    Frame: Button (Level 6)
+                    Layout: Padding-10px-20px border: 1px solid #8D5CF6 radius-37px
+
+                        Frame: Button text (Level 7)
+                        Content: "Learn More"
+                        Typography:
+                            font-family: Montserrat;
+                            font-weight: 700;
+                            font-size: 14px;
+                            leading-trim: NONE;
+                            line-height: 24px;
+                            letter-spacing: 0.2px;
+                            color:#8D5CF6;
+
+            Frame:col Card (Level 4)
+            Layout: d-flex flex-column
+
+                Frame: Image Container (Level 5)
+                Layout: position-relative
+
+                    Frame: Img (Level 6)
+                    Layout: assets/images/library.svg width:100% object-fit-cover display-block
+
+                    Frame: H6 (Level 6)
+                    Layout: position-absolute
+                    Content: "Sale'
+                    Typography:
+                        font-family: Montserrat;
+                        font-weight: 700;
+                        font-size: 14px;
+                        leading-trim: NONE;
+                        line-height: 24px;
+                        letter-spacing: 0.2px;
+                        text-align: center;
+                        color:#FFFFFF;
+
+                    Frame: Image Group (Level 6)
+                    Layout: d-flex gap-10px position-absolute
+
+                        Frame: Image Container (Level 7)
+
+                            Frame: Img (Level 8)
+                            Layout: assets/images/like.svg width-100% object-fit-cover
+
+                        Frame: Image Container (Level 7)
+
+                            Frame: Img (Level 8)
+                            Layout: assets/images/basket.svg width-100% object-fit-cover
+
+                        Frame: Image Container (Level 7)
+
+                            Frame: Img (Level 8)
+                            Layout: assets/images/views.svg width-100% object-fit-cover
+
+                Frame : Content Container (Level 5)
+                Layout: d-flex flex-column gap-10px padding-25px-25px-35px-25px
+
+                    Frame: Sub Content Container (Level 6)
+                    Layout: width-100% d-flex justify-content-between
+
+                        Frame: Link (Level 7)
+                        Content: "Welcome"
+                        Typography:
+                            font-family: Montserrat;
+                            font-weight: 700;
+                            font-size: 14px;
+                            leading-trim: NONE;
+                            line-height: 24px;
+                            letter-spacing: 0.2px;
+                            color:#8D5CF6;
+
+                        Frame: Rating Group (Level 7)
+                        Layout: d-flex gap-5px padding-5px radius-20px
+                        Background: #26335D
+
+                            Frame: Icon (Level 8)
+                            Content:icon(fa-star)
+                            Layout: width-16 height-16 angle-0 deg opacity-1 
+                            Color: #FFCE31
+
+                            Frame: Small (Level 8)
+                            Content: "4.9"
+                            Typography:
+                                font-family: Montserrat;
+                                font-weight: 400;
+                                font-size: 12px;
+                                leading-trim: NONE;
+                                line-height: 16px;
+                                letter-spacing: 0.2px;
+                                color:#FFFFFF; 
+
+                    Frame: H5 (Level 6)
+                    content: "Training Courses"
+                    Typography:
+                        font-family: Montserrat;
+                        font-weight: 700;
+                        font-size: 16px;
+                        leading-trim: NONE;
+                        line-height: 24px;
+                        letter-spacing: 0.1px;
+                        color:#252B42;
+                    
+                    Frame: Paragraph (Level 6)
+                    Content:"We focus on ergonomics and meeting you where you work. It's only a keystroke away."
+                    Typography:
+                        font-family: Montserrat;
+                        font-weight: 400;
+                        font-size: 14px;
+                        leading-trim: NONE;
+                        line-height: 20px;
+                        letter-spacing: 0.2px;
+                        color:#737373;
+
+                    Frame: Sales Group (Level 6)
+                    Layout: d-flex gap-10px
+
+                        Frame: Image Container (Level 7)
+
+                            Frame:Img (Level 8)
+                            Layout: assets/images/download.svg width-100% object-fit-cover display-block
+
+                        Frame: H6 (Level 7)
+                        content:"15 Sales"
+                        Typography:
+                            font-family: Montserrat;
+                            font-weight: 700;
+                            font-size: 14px;
+                            leading-trim: NONE;
+                            line-height: 24px;
+                            letter-spacing: 0.2px;
+                            color:#737373
+
+                    Frame: Amount Group (Level 6)
+                    Layout: d-flex gap-5px
+
+                        Frame: H5 (Level 7)
+                        Content: "$16.48"
+                        Typography:
+                            font-family: Montserrat;
+                            font-weight: 700;
+                            font-size: 16px;
+                            leading-trim: NONE;
+                            line-height: 24px;
+                            letter-spacing: 0.1px;
+                            text-align: center;
+                            color:#BDBDBD;
+
+                        Frame: H5 (Level 7)
+                        Content: "$6.48"
+                        Typography:
+                            font-family: Montserrat;
+                            font-weight: 700;
+                            font-size: 16px;
+                            leading-trim: NONE;
+                            line-height: 24px;
+                            letter-spacing: 0.1px;
+                            text-align: center;
+                            color:#FF7B52;
+
+                    Frame: Button (Level 6)
+                    Layout: Padding-10px-20px border: 1px solid #8D5CF6 radius-37px
+
+                        Frame: Button text (Level 7)
+                        Content: "Learn More"
+                        Typography:
+                            font-family: Montserrat;
+                            font-weight: 700;
+                            font-size: 14px;
+                            leading-trim: NONE;
+                            line-height: 24px;
+                            letter-spacing: 0.2px;
+                            color:#8D5CF6;
+
+
+            Frame: col Card (Level 4)
+            Layout: d-flex flex-column
+
+                Frame: Image Container (Level 5)
+                Layout: position-relative
+
+                    Frame: Img (Level 6)
+                    Layout: assets/images/apple.svg width:100% object-fit-cover display-block
+
+                    Frame: H6 (Level 6)
+                    Layout: position-absolute
+                    Content: "Sale'
+                    Typography:
+                        font-family: Montserrat;
+                        font-weight: 700;
+                        font-size: 14px;
+                        leading-trim: NONE;
+                        line-height: 24px;
+                        letter-spacing: 0.2px;
+                        text-align: center;
+                        color:#FFFFFF;
+
+                    Frame: Image Group (Level 6)
+                    Layout: d-flex gap-10px position-absolute
+
+                        Frame: Image Container (Level 7)
+
+                            Frame: Img (Level 8)
+                            Layout: assets/images/like.svg width-100% object-fit-cover
+
+                        Frame: Image Container (Level 7)
+
+                            Frame: Img (Level 8)
+                            Layout: assets/images/basket.svg width-100% object-fit-cover
+
+                        Frame: Image Container (Level 7)
+
+                            Frame: Img (Level 8)
+                            Layout: assets/images/views.svg width-100% object-fit-cover
+
+       
+                Frame : Content Container (Level 5)
+                Layout: d-flex flex-column gap-10px padding-25px-25px-35px-25px
+
+                    Frame: Sub Content Container (Level 6)
+                    Layout: width-100% d-flex justify-content-between
+
+                        Frame: Link (Level 7)
+                        Content: "Welcome"
+                        Typography:
+                            font-family: Montserrat;
+                            font-weight: 700;
+                            font-size: 14px;
+                            leading-trim: NONE;
+                            line-height: 24px;
+                            letter-spacing: 0.2px;
+                            color:#8D5CF6;
+
+                        Frame: Rating Group (Level 7)
+                        Layout: d-flex gap-5px padding-5px radius-20px
+                        Background: #26335D
+
+                            Frame: Icon (Level 8)
+                            Content:icon(fa-star)
+                            Layout: width-16 height-16 angle-0 deg opacity-1 
+                            Color: #FFCE31
+
+                            Frame: Small (Level 8)
+                            Content: "4.9"
+                            Typography:
+                                font-family: Montserrat;
+                                font-weight: 400;
+                                font-size: 12px;
+                                leading-trim: NONE;
+                                line-height: 16px;
+                                letter-spacing: 0.2px;
+                                color:#FFFFFF; 
+
+                    Frame: H5 (Level 6)
+                    content: "Books Liberary"
+                    Typography:
+                        font-family: Montserrat;
+                        font-weight: 700;
+                        font-size: 16px;
+                        leading-trim: NONE;
+                        line-height: 24px;
+                        letter-spacing: 0.1px;
+                        color:#252B42;
+                    
+                    Frame: Paragraph (Level 6)
+                    Content:"We focus on ergonomics and meeting you where you work. It's only a keystroke away."
+                    Typography:
+                        font-family: Montserrat;
+                        font-weight: 400;
+                        font-size: 14px;
+                        leading-trim: NONE;
+                        line-height: 20px;
+                        letter-spacing: 0.2px;
+                        color:#737373;
+
+                    Frame: Sales Group (Level 6)
+                    Layout: d-flex gap-10px
+
+                        Frame: Image Container (Level 7)
+
+                            Frame:Img (Level 8)
+                            Layout: assets/images/download.svg width-100% object-fit-cover display-block
+
+                        Frame: H6 (Level 7)
+                        content:"15 Sales"
+                        Typography:
+                            font-family: Montserrat;
+                            font-weight: 700;
+                            font-size: 14px;
+                            leading-trim: NONE;
+                            line-height: 24px;
+                            letter-spacing: 0.2px;
+                            color:#737373
+
+                    Frame: Amount Group (Level 6)
+                    Layout: d-flex gap-5px
+
+                        Frame: H5 (Level 7)
+                        Content: "$16.48"
+                        Typography:
+                            font-family: Montserrat;
+                            font-weight: 700;
+                            font-size: 16px;
+                            leading-trim: NONE;
+                            line-height: 24px;
+                            letter-spacing: 0.1px;
+                            text-align: center;
+                            color:#BDBDBD;
+
+                        Frame: H5 (Level 7)
+                        Content: "$6.48"
+                        Typography:
+                            font-family: Montserrat;
+                            font-weight: 700;
+                            font-size: 16px;
+                            leading-trim: NONE;
+                            line-height: 24px;
+                            letter-spacing: 0.1px;
+                            text-align: center;
+                            color:#FF7B52;
+
+                    Frame: Button (Level 6)
+                    Layout: Padding-10px-20px border: 1px solid #8D5CF6 radius-37px
+
+                        Frame: Button text (Level 7)
+                        Content: "Learn More"
+                        Typography:
+                            font-family: Montserrat;
+                            font-weight: 700;
+                            font-size: 14px;
+                            leading-trim: NONE;
+                            line-height: 24px;
+                            letter-spacing: 0.2px;
+                            color:#8D5CF6;
+
+Frame: Review-section (Level 1)
+
+    Frame: Container (Level 2)
+    Layout: container d-flex flex-column gap-80px
+
+        Frame: Heading Container (Level 3)
+        Layout: d-flex flex-column gap-10px
+
+            Frame:H6 (Level 4)
+            Content:"Practice Advice"
+            Typography:
+                font-family: Montserrat;
+                font-weight: 700;
+                font-size: 14px;
+                leading-trim: NONE;
+                line-height: 24px;
+                letter-spacing: 0.2px;
+                color:#FFFFFF;
+
+            Frame:H2 (Level 4)
+            Content: "Approdable Packages"
+            Typography:
+                font-family: Montserrat;
+                font-weight: 700;
+                font-size: 40px;
+                leading-trim: NONE;
+                line-height: 50px;
+                letter-spacing: 0.2px;
+                color:#FFFFFF;
+
+            Frame:Paragraph (Level 4)
+            Content:"Problems trying to resolve the conflict between the two major realms of Classical physics: Newtonian mechanics"
+            Typography:
+                font-family: Montserrat;
+                font-weight: 400;
+                font-size: 14px;
+                leading-trim: NONE;
+                line-height: 20px;
+                letter-spacing: 0.2px;
+                color:#FFFFFF;
+            
+        Frame: Box Container (Level 3)
+        Layout: row row-cols-3 justify-content-between gap-20px or gutter-x-20px
+
+            Frame: Box (Level 4)
+            Layout: padding-25px d-flex flex-column justify-content-center
+            Background:#FFFFFF
+
+                Frame: Review (Level 5)
+                Layout:paddding-30px d-flex flex-column gap-15px
+
+                    Frame: Icon container (Level 6)
+                    Layout: d-flex gap-5px
+
+                        Frame:Star (Level 7)
+                        Content:icon(fa-solid fa-star)
+                        Typography:
+                            width: 18.344575881958008;
+                            height: 18.34711456298828;
+                            angle: 0 deg;
+                            opacity: 1;
+                            top: 1.83px;
+                            left: 1.83px;
+                            color:#F3CD03;
+
+                        Frame:Star (Level 7)
+                        Content:icon(fa-solid fa-star)
+                        Typography:
+                            width: 18.344575881958008;
+                            height: 18.34711456298828;
+                            angle: 0 deg;
+                            opacity: 1;
+                            top: 1.83px;
+                            left: 1.83px;
+                            color:#F3CD03;
+
+                        Frame:Star (Level 7)
+                        Content:icon(fa-solid fa-star)
+                        Typography:
+                            width: 18.344575881958008;
+                            height: 18.34711456298828;
+                            angle: 0 deg;
+                            opacity: 1;
+                            top: 1.83px;
+                            left: 1.83px;
+                            color:#F3CD03;
+
+                        Frame:Star (Level 7)
+                        Content:icon(fa-solid fa-star)
+                        Typography:
+                            width: 18.344575881958008;
+                            height: 18.34711456298828;
+                            angle: 0 deg;
+                            opacity: 1;
+                            top: 1.83px;
+                            left: 1.83px;
+                            color:#F3CD03;
+
+                        Frame:No Star (Level 7)
+                        Content:icon(fa-regular fa-star)
+                        Typography:
+                            width: 18.344575881958008;
+                            height: 18.34711456298828;
+                            angle: 0 deg;
+                            opacity: 1;
+                            top: 1.83px;
+                            left: 1.83px;
+                            color:#F3CD03;
+
+                    Frame: Review Content (Level 6)
+                    Content: "Slate helps you see how many more days you need to work to reach your financial goal for the month and year."
+                    Typography:
+                        font-family: Montserrat;
+                        font-weight: 400;
+                        font-size: 14px;
+                        leading-trim: NONE;
+                        line-height: 20px;
+                        letter-spacing: 0.2px;
+                        text-align: center;
+                        color:#737373;
+
+                Frame: Profile (Level 5)
+                Layout: d-flex gap-15px
+
+                    Frame: Image Container (Level 6)
+                    
+                        Frame: Img (Level 7)
+                        Layout:assets/images/feedback-regina-miles.jpg display-block object-fit-cover width-100% border-radius:50%
+                    
+                    Frame: User box (Level 6)
+                    Layout: d-flex flex-column
+
+                        Frame: H6 (Level 7)
+                        Content:"Regina Miles"
+                        Typography:
+                            font-family: Montserrat;
+                            font-weight: 700;
+                            font-size: 14px;
+                            leading-trim: NONE;
+                            line-height: 24px;
+                            letter-spacing: 0.2px;
+                            color:#8D5CF6;
+
+                        Frame:Small (Level 7)
+                        Content:"Designer"
+                        Typography:
+                            font-family: Montserrat;
+                            font-weight: 400;
+                            font-size: 12px;
+                            leading-trim: NONE;
+                            line-height: 16px;
+                            letter-spacing: 0.2px;
+                            color:#252B42;
+
+
+            Frame: Box (Level 4)
+            Layout: padding-25px d-flex flex-column justify-content-center
+            Background:#FFFFFF
+
+                Frame: Review (Level 5)
+                Layout:paddding-30px d-flex flex-column gap-15px
+
+                    Frame: Icon container (Level 6)
+                    Layout: d-flex gap-5px
+
+                        Frame:Star (Level 7)
+                        Content:icon(fa-solid fa-star)
+                        Typography:
+                            width: 18.344575881958008;
+                            height: 18.34711456298828;
+                            angle: 0 deg;
+                            opacity: 1;
+                            top: 1.83px;
+                            left: 1.83px;
+                            color:#F3CD03;
+
+                        Frame:Star (Level 7)
+                        Content:icon(fa-solid fa-star)
+                        Typography:
+                            width: 18.344575881958008;
+                            height: 18.34711456298828;
+                            angle: 0 deg;
+                            opacity: 1;
+                            top: 1.83px;
+                            left: 1.83px;
+                            color:#F3CD03;
+
+                        Frame:Star (Level 7)
+                        Content:icon(fa-solid fa-star)
+                        Typography:
+                            width: 18.344575881958008;
+                            height: 18.34711456298828;
+                            angle: 0 deg;
+                            opacity: 1;
+                            top: 1.83px;
+                            left: 1.83px;
+                            color:#F3CD03;
+
+                        Frame:Star (Level 7)
+                        Content:icon(fa-solid fa-star)
+                        Typography:
+                            width: 18.344575881958008;
+                            height: 18.34711456298828;
+                            angle: 0 deg;
+                            opacity: 1;
+                            top: 1.83px;
+                            left: 1.83px;
+                            color:#F3CD03;
+
+                        Frame:No Star (Level 7)
+                        Content:icon(fa-regular fa-star)
+                        Typography:
+                            width: 18.344575881958008;
+                            height: 18.34711456298828;
+                            angle: 0 deg;
+                            opacity: 1;
+                            top: 1.83px;
+                            left: 1.83px;
+                            color:#F3CD03;
+
+                    Frame: Review Content (Level 6)
+                    Content: "Slate helps you see how many more days you need to work to reach your financial goal for the month and year."
+                    Typography:
+                        font-family: Montserrat;
+                        font-weight: 400;
+                        font-size: 14px;
+                        leading-trim: NONE;
+                        line-height: 20px;
+                        letter-spacing: 0.2px;
+                        text-align: center;
+                        color:#737373;
+
+                Frame: Profile (Level 5)
+                Layout: d-flex gap-15px
+
+                    Frame: Image Container (Level 6)
+                    
+                        Frame: Img (Level 7)
+                        Layout:assets/images/feedbacks-miles.jpg display-block object-fit-cover width-100% border-radius:50%
+                    
+                    Frame: User box (Level 6)
+                    Layout: d-flex flex-column
+
+                        Frame: H6 (Level 7)
+                        Content:"Regina Miles"
+                        Typography:
+                            font-family: Montserrat;
+                            font-weight: 700;
+                            font-size: 14px;
+                            leading-trim: NONE;
+                            line-height: 24px;
+                            letter-spacing: 0.2px;
+                            color:#8D5CF6;
+
+                        Frame:Small (Level 7)
+                        Content:"Designer"
+                        Typography:
+                            font-family: Montserrat;
+                            font-weight: 400;
+                            font-size: 12px;
+                            leading-trim: NONE;
+                            line-height: 16px;
+                            letter-spacing: 0.2px;
+                            color:#252B42;
+
+
+            Frame: Box (Level 4)
+            Layout: padding-25px d-flex flex-column justify-content-center
+            Background:#FFFFFF
+
+                Frame: Review (Level 5)
+                Layout:paddding-30px d-flex flex-column gap-15px
+
+                    Frame: Icon container (Level 6)
+                    Layout: d-flex gap-5px
+
+                        Frame:Star (Level 7)
+                        Content:icon(fa-solid fa-star)
+                        Typography:
+                            width: 18.344575881958008;
+                            height: 18.34711456298828;
+                            angle: 0 deg;
+                            opacity: 1;
+                            top: 1.83px;
+                            left: 1.83px;
+                            color:#F3CD03;
+
+                        Frame:Star (Level 7)
+                        Content:icon(fa-solid fa-star)
+                        Typography:
+                            width: 18.344575881958008;
+                            height: 18.34711456298828;
+                            angle: 0 deg;
+                            opacity: 1;
+                            top: 1.83px;
+                            left: 1.83px;
+                            color:#F3CD03;
+
+                        Frame:Star (Level 7)
+                        Content:icon(fa-solid fa-star)
+                        Typography:
+                            width: 18.344575881958008;
+                            height: 18.34711456298828;
+                            angle: 0 deg;
+                            opacity: 1;
+                            top: 1.83px;
+                            left: 1.83px;
+                            color:#F3CD03;
+
+                        Frame:Star (Level 7)
+                        Content:icon(fa-solid fa-star)
+                        Typography:
+                            width: 18.344575881958008;
+                            height: 18.34711456298828;
+                            angle: 0 deg;
+                            opacity: 1;
+                            top: 1.83px;
+                            left: 1.83px;
+                            color:#F3CD03;
+
+                        Frame:No Star (Level 7)
+                        Content:icon(fa-regular fa-star)
+                        Typography:
+                            width: 18.344575881958008;
+                            height: 18.34711456298828;
+                            angle: 0 deg;
+                            opacity: 1;
+                            top: 1.83px;
+                            left: 1.83px;
+                            color:#F3CD03;
+
+                    Frame: Review Content (Level 6)
+                    Content: "Slate helps you see how many more days you need to work to reach your financial goal for the month and year."
+                    Typography:
+                        font-family: Montserrat;
+                        font-weight: 400;
+                        font-size: 14px;
+                        leading-trim: NONE;
+                        line-height: 20px;
+                        letter-spacing: 0.2px;
+                        text-align: center;
+                        color:#737373;
+
+                Frame: Profile (Level 5)
+                Layout: d-flex gap-15px
+
+                    Frame: Image Container (Level 6)
+                    
+                        Frame: Img (Level 7)
+                        Layout:assets/images/feedbacks-avatar.jpg display-block object-fit-cover width-100% border-radius-50%
+                    
+                    Frame: User box (Level 6)
+                    Layout: d-flex flex-column
+
+                        Frame: H6 (Level 7)
+                        Content:"Regina Miles"
+                        Typography:
+                            font-family: Montserrat;
+                            font-weight: 700;
+                            font-size: 14px;
+                            leading-trim: NONE;
+                            line-height: 24px;
+                            letter-spacing: 0.2px;
+                            color:#8D5CF6;
+
+                        Frame:Small (Level 7)
+                        Content:"Designer"
+                        Typography:
+                            font-family: Montserrat;
+                            font-weight: 400;
+                            font-size: 12px;
+                            leading-trim: NONE;
+                            line-height: 16px;
+                            letter-spacing: 0.2px;
+                            color:#252B42;
+
+
+Frame: FAQ (Level 1)
+
+    Frame: Container (Level 2)
+    Layout: d-flex flex-column gap-50px
+
+        Frame: Heading Container (Level 3)
+        Layout: d-flex flex-column gap-10px padding-45px-0px-45px-0px
+
+            Frame: H2 (Level 4)
+            Content:"FAQ"
+            Typography:
+                font-family: Montserrat;
+                font-weight: 700;
+                font-size: 40px;
+                leading-trim: NONE;
+                line-height: 50px;
+                letter-spacing: 0.2px;
+                color:#FFFFFF;
+
+            Frame:Paragraph (Level 4)
+            Content: "Problems trying to resolve the conflict between the two major realms of Classical physics: Newtonian mechanics"
+            Typography:
+                font-family: Montserrat;
+                font-weight: 400;
+                font-size: 14px;
+                leading-trim: NONE;
+                line-height: 20px;
+                letter-spacing: 0.2px;
+                text-align: center;
+                color:#FFFFFF;
+        
+        Frame: Box Container (Level 2)
+        Layout: row row-cols-3 gap-30px gutter-x-30px row-gap-30px
+
+            Frame: Box (Level 3)
+            Layout:d-flex padding-25px radius-9px
+            Background:#FFFFFF
+
+                Frame: Icon (Level 4)
+                Content: fa-angel-right
+                Layout: 
+                    width: 8.616573333740234;
+                    height: 16;
+                    angle: 0 deg;
+                    opacity: 1;
+                    color:#8D5CF6;
+                
+                Frame: Content box (Level 4)
+                Layout: d-flex flex-column gap-5px
+
+                    Frame: H5 (Level 5)
+                    Content: "the quick fox jumps over the lazy dog"
+                    Typography:
+                        font-family: Montserrat;
+                        font-weight: 700;
+                        font-size: 16px;
+                        leading-trim: NONE;
+                        line-height: 24px;
+                        letter-spacing: 0.1px;
+                        color:#252B42;
+
+                    Frame: H6 (level 5)
+                    Content:"Things on a very small scale behave like nothing" 
+                    Typography:
+                        font-family: Montserrat;
+                        font-weight: 700;
+                        font-size: 14px;
+                        leading-trim: NONE;
+                        line-height: 24px;
+                        letter-spacing: 0.2px;
+                        color:#737373;
+                    
+            Frame: Box (Level 3)
+            Layout:d-flex padding-25px radius-9px
+            Background:#FFFFFF
+
+                Frame: Icon (Level 4)
+                Content: fa-angel-right
+                Layout: 
+                    width: 8.616573333740234;
+                    height: 16;
+                    angle: 0 deg;
+                    opacity: 1;
+                    color:#8D5CF6;
+                
+                Frame: Content box (Level 4)
+                Layout: d-flex flex-column gap-5px
+
+                    Frame: H5 (Level 5)
+                    Content: "the quick fox jumps over the lazy dog"
+                    Typography:
+                        font-family: Montserrat;
+                        font-weight: 700;
+                        font-size: 16px;
+                        leading-trim: NONE;
+                        line-height: 24px;
+                        letter-spacing: 0.1px;
+                        color:#252B42;
+
+                    Frame: H6 (level 5)
+                    Content:"Things on a very small scale behave like nothing" 
+                    Typography:
+                        font-family: Montserrat;
+                        font-weight: 700;
+                        font-size: 14px;
+                        leading-trim: NONE;
+                        line-height: 24px;
+                        letter-spacing: 0.2px;
+                        color:#737373;
+
+            Frame: Box (Level 3)
+            Layout:d-flex padding-25px radius-9px
+            Background:#FFFFFF
+
+                Frame: Icon (Level 4)
+                Content: fa-angel-right
+                Layout: 
+                    width: 8.616573333740234;
+                    height: 16;
+                    angle: 0 deg;
+                    opacity: 1;
+                    color:#8D5CF6;
+                
+                Frame: Content box (Level 4)
+                Layout: d-flex flex-column gap-5px
+
+                    Frame: H5 (Level 5)
+                    Content: "the quick fox jumps over the lazy dog"
+                    Typography:
+                        font-family: Montserrat;
+                        font-weight: 700;
+                        font-size: 16px;
+                        leading-trim: NONE;
+                        line-height: 24px;
+                        letter-spacing: 0.1px;
+                        color:#252B42;
+
+                    Frame: H6 (level 5)
+                    Content:"Things on a very small scale behave like nothing" 
+                    Typography:
+                        font-family: Montserrat;
+                        font-weight: 700;
+                        font-size: 14px;
+                        leading-trim: NONE;
+                        line-height: 24px;
+                        letter-spacing: 0.2px;
+                        color:#737373;
+
+            Frame: Box (Level 3)
+            Layout:d-flex padding-25px radius-9px
+            Background:#FFFFFF
+
+                Frame: Icon (Level 4)
+                Content: fa-angel-right
+                Layout: 
+                    width: 8.616573333740234;
+                    height: 16;
+                    angle: 0 deg;
+                    opacity: 1;
+                    color:#8D5CF6;
+                
+                Frame: Content box (Level 4)
+                Layout: d-flex flex-column gap-5px
+
+                    Frame: H5 (Level 5)
+                    Content: "the quick fox jumps over the lazy dog"
+                    Typography:
+                        font-family: Montserrat;
+                        font-weight: 700;
+                        font-size: 16px;
+                        leading-trim: NONE;
+                        line-height: 24px;
+                        letter-spacing: 0.1px;
+                        color:#252B42;
+
+                    Frame: H6 (level 5)
+                    Content:"Things on a very small scale behave like nothing" 
+                    Typography:
+                        font-family: Montserrat;
+                        font-weight: 700;
+                        font-size: 14px;
+                        leading-trim: NONE;
+                        line-height: 24px;
+                        letter-spacing: 0.2px;
+                        color:#737373;
+
+            Frame: Box (Level 3)
+            Layout:d-flex padding-25px radius-9px
+            Background:#FFFFFF
+
+                Frame: Icon (Level 4)
+                Content: fa-angel-right
+                Layout: 
+                    width: 8.616573333740234;
+                    height: 16;
+                    angle: 0 deg;
+                    opacity: 1;
+                    color:#8D5CF6;
+                
+                Frame: Content box (Level 4)
+                Layout: d-flex flex-column gap-5px
+
+                    Frame: H5 (Level 5)
+                    Content: "the quick fox jumps over the lazy dog"
+                    Typography:
+                        font-family: Montserrat;
+                        font-weight: 700;
+                        font-size: 16px;
+                        leading-trim: NONE;
+                        line-height: 24px;
+                        letter-spacing: 0.1px;
+                        color:#252B42;
+
+                    Frame: H6 (level 5)
+                    Content:"Things on a very small scale behave like nothing" 
+                    Typography:
+                        font-family: Montserrat;
+                        font-weight: 700;
+                        font-size: 14px;
+                        leading-trim: NONE;
+                        line-height: 24px;
+                        letter-spacing: 0.2px;
+                        color:#737373;
+
+            Frame: Box (Level 3)
+            Layout:d-flex padding-25px radius-9px
+            Background:#FFFFFF
+
+                Frame: Icon (Level 4)
+                Content: fa-angel-right
+                Layout: 
+                    width: 8.616573333740234;
+                    height: 16;
+                    angle: 0 deg;
+                    opacity: 1;
+                    color:#8D5CF6;
+                
+                Frame: Content box (Level 4)
+                Layout: d-flex flex-column gap-5px
+
+                    Frame: H5 (Level 5)
+                    Content: "the quick fox jumps over the lazy dog"
+                    Typography:
+                        font-family: Montserrat;
+                        font-weight: 700;
+                        font-size: 16px;
+                        leading-trim: NONE;
+                        line-height: 24px;
+                        letter-spacing: 0.1px;
+                        color:#252B42;
+
+                    Frame: H6 (level 5)
+                    Content:"Things on a very small scale behave like nothing" 
+                    Typography:
+                        font-family: Montserrat;
+                        font-weight: 700;
+                        font-size: 14px;
+                        leading-trim: NONE;
+                        line-height: 24px;
+                        letter-spacing: 0.2px;
+                        color:#737373;
+
+            Frame: Box (Level 3)
+            Layout:d-flex padding-25px radius-9px
+            Background:#FFFFFF
+
+                Frame: Icon (Level 4)
+                Content: fa-angel-right
+                Layout: 
+                    width: 8.616573333740234;
+                    height: 16;
+                    angle: 0 deg;
+                    opacity: 1;
+                    color:#8D5CF6;
+                
+                Frame: Content box (Level 4)
+                Layout: d-flex flex-column gap-5px
+
+                    Frame: H5 (Level 5)
+                    Content: "the quick fox jumps over the lazy dog"
+                    Typography:
+                        font-family: Montserrat;
+                        font-weight: 700;
+                        font-size: 16px;
+                        leading-trim: NONE;
+                        line-height: 24px;
+                        letter-spacing: 0.1px;
+                        color:#252B42;
+
+                    Frame: H6 (level 5)
+                    Content:"Things on a very small scale behave like nothing" 
+                    Typography:
+                        font-family: Montserrat;
+                        font-weight: 700;
+                        font-size: 14px;
+                        leading-trim: NONE;
+                        line-height: 24px;
+                        letter-spacing: 0.2px;
+                        color:#737373;
+
+            Frame: Box (Level 3)
+            Layout:d-flex padding-25px radius-9px
+            Background:#FFFFFF
+
+                Frame: Icon (Level 4)
+                Content: fa-angel-right
+                Layout: 
+                    width: 8.616573333740234;
+                    height: 16;
+                    angle: 0 deg;
+                    opacity: 1;
+                    color:#8D5CF6;
+                
+                Frame: Content box (Level 4)
+                Layout: d-flex flex-column gap-5px
+
+                    Frame: H5 (Level 5)
+                    Content: "the quick fox jumps over the lazy dog"
+                    Typography:
+                        font-family: Montserrat;
+                        font-weight: 700;
+                        font-size: 16px;
+                        leading-trim: NONE;
+                        line-height: 24px;
+                        letter-spacing: 0.1px;
+                        color:#252B42;
+
+                    Frame: H6 (level 5)
+                    Content:"Things on a very small scale behave like nothing" 
+                    Typography:
+                        font-family: Montserrat;
+                        font-weight: 700;
+                        font-size: 14px;
+                        leading-trim: NONE;
+                        line-height: 24px;
+                        letter-spacing: 0.2px;
+                        color:#737373;
+
+            Frame: Box (Level 3)
+            Layout:d-flex padding-25px radius-9px
+            Background:#FFFFFF
+
+                Frame: Icon (Level 4)
+                Content: fa-angel-right
+                Layout: 
+                    width: 8.616573333740234;
+                    height: 16;
+                    angle: 0 deg;
+                    opacity: 1;
+                    color:#8D5CF6;
+                
+                Frame: Content box (Level 4)
+                Layout: d-flex flex-column gap-5px
+
+                    Frame: H5 (Level 5)
+                    Content: "the quick fox jumps over the lazy dog"
+                    Typography:
+                        font-family: Montserrat;
+                        font-weight: 700;
+                        font-size: 16px;
+                        leading-trim: NONE;
+                        line-height: 24px;
+                        letter-spacing: 0.1px;
+                        color:#252B42;
+
+                    Frame: H6 (level 5)
+                    Content:"Things on a very small scale behave like nothing" 
+                    Typography:
+                        font-family: Montserrat;
+                        font-weight: 700;
+                        font-size: 14px;
+                        leading-trim: NONE;
+                        line-height: 24px;
+                        letter-spacing: 0.2px;
+                        color:#737373;
+
+Frame: Newsletter (Level 1)
+
+    Frame: Container (Level 2)
+    Layout: d-flex flex-column gap-80px
+
+        Frame: Heading Container (Level 3)
+        Layout: d-flex flex-column gap-10px
+
+            Frame: H6 (Level 4)
+            Content:"Newsletter"
+            Typography:
+                font-family: Montserrat;
+                font-weight: 700;
+                font-size: 14px;
+                leading-trim: NONE;
+                line-height: 24px;
+                letter-spacing: 0.2px;
+                text-align: center;
+                color:#8D5CF6;
+
+            Frame: H2 (Level 4)
+            Content: "Every Client Matters"
+            Typography:
+                font-family: Montserrat;
+                font-weight: 700;
+                font-size: 40px;
+                leading-trim: NONE;
+                line-height: 50px;
+                letter-spacing: 0.2px;
+                text-align: center;
+                color:#FFFFFF;
+
+            Frame: Paragraph (Level 4)
+            Content: "Problems trying to resolve the conflict between the two major realms of Classical physics: Newtonian mechanics"
+            Typography:
+                font-family: Montserrat;
+                font-weight: 400;
+                font-size: 14px;
+                leading-trim: NONE;
+                line-height: 20px;
+                letter-spacing: 0.2px;
+                text-align: center;
+                color:#FFFFFF;
+            
+        Frame: Form (Level 3)
+        Layout: row gap-0px
+
+            Frame: Input (Level 4)
+            Content:"Your Email"
+            Layout: col-8 border: 1px solid #E6E6E6 top-left-radius-5px top-bottom-radius-5px
+            Typography:
+                font-family: Montserrat;
+                font-weight: 400;
+                font-size: 14px;
+                leading-trim: NONE;
+                line-height: 28px;
+                letter-spacing: 0.2px;
+                color:#737373;
+ 
+            Frame: Button (Level 4)
+            Content: "Subscribe"
+            Layout: col-4 top-right-radius-5px bottom-rigth-radius-5px border: 1px solid #E6E6E6 
+            Background:#8D5CF6
+            Typography:
+                font-family: Montserrat;
+                font-weight: 400;
+                font-size: 14px;
+                leading-trim: NONE;
+                line-height: 28px;
+                letter-spacing: 0.2px;
+                text-align: center;
+                color:#FFFFFF;
+
+
+
+
+
+
