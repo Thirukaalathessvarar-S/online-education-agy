@@ -643,103 +643,132 @@ a {
 /* Priority 3: Custom media queries applied desktop-down (980px, 757px, 575px, 320px) */
 
 @media (max-width: 980px) {
-    .hero-heading {
-        font-size: 48px;
-        line-height: 64px;
+    /* Section padding exception rule */
+    .hero-content { padding: 90px 0; height: auto; }
+    .feature-section, .expert-section, .package-section, .course-section, .review-section, .faq-section, .newsletter-section, .footer-section { padding-top: 90px; padding-bottom: 90px; }
+    
+    /* Elements margin-bottom */
+    .hero-subtitle, .hero-heading, .hero-description, .feature-card-title, .feature-decor, .expert-decor, .expert-heading, .expert-text, .package-decor, .package-heading, .course-subtitle, .course-heading, .course-card-title, .course-card-text, .course-sales-group, .course-amount-group, .review-subtitle, .review-heading, .review-text, .faq-heading, .faq-title, .newsletter-subtitle, .newsletter-heading, .footer-heading {
+        margin-bottom: calc(1em * 0.9);
     }
-    .expert-heading,
-    .package-heading,
-    .course-heading,
-    .review-heading,
-    .faq-heading,
-    .newsletter-heading {
-        font-size: 32px;
-        line-height: 42px;
+    
+    /* Font size reductions */
+    .hero-heading { font-size: 50px; line-height: 68px; }
+    .expert-heading, .package-heading, .course-heading, .review-heading, .faq-heading, .newsletter-heading { font-size: 36px; line-height: 46px; }
+    .hero-description { font-size: 18px; line-height: 28px; }
+    .navbar-brand { font-size: 22px; }
+    .hero-subtitle, .feature-card-title, .course-card-title, .faq-title, .footer-heading, .course-price-old, .course-price-sale { font-size: 15px; }
+    .nav-links-primary .nav-link, .nav-links-auth .nav-link, .btn-signup, .btn-cta-primary, .btn-cta-outline, .feature-card-text, .expert-text, .expert-link, .package-link, .course-subtitle, .course-intro-text, .course-sale-badge, .course-category-link, .course-sales-text, .course-learn-btn, .review-subtitle, .review-intro-text, .review-text, .review-user-name, .faq-intro-text, .faq-text, .newsletter-subtitle, .newsletter-intro-text, .newsletter-input, .newsletter-btn, .footer-link, .footer-contact-text, .footer-copyright { font-size: 13px; }
+
+    /* Padding for buttons, anchors, inputs */
+    .btn-signup, .btn-cta-primary, .btn-cta-outline { padding: 12px 24px; }
+    .course-learn-btn { padding: 8px 18px; }
+    .newsletter-input { padding: 12px 18px; }
+    .package-play-btn { width: 85px; height: 85px; font-size: 20px; }
+    .course-action-icon { padding: 9px; }
+
+    /* Gaps */
+    .nav-links-primary, .nav-links-auth, .hero-btn-group, .feature-card, .expert-link-group, .package-link-group, .course-img-actions, .course-rating, .course-sales-group, .course-amount-group, .review-stars, .review-profile, .faq-box, .footer-list, .footer-contact, .footer-contact-box, .footer-socials {
+        gap: calc(1em * 0.9);
     }
-    .course-img-container {
-        height: 250px;
-    }
+    .feature-row, .course-row, .review-row, .faq-row { row-gap: 27px; }
+    .course-img-container { height: 280px; }
 }
 
 @media (max-width: 757px) {
-    .hero-heading {
-        font-size: 40px;
-        line-height: 52px;
+    /* Section padding exception rule */
+    .hero-content { padding: 90px 0; height: auto; }
+    .feature-section, .expert-section, .package-section, .course-section, .review-section, .faq-section, .newsletter-section, .footer-section { padding-top: 90px; padding-bottom: 90px; }
+    
+    .hero-subtitle, .hero-heading, .hero-description, .feature-card-title, .feature-decor, .expert-decor, .expert-heading, .expert-text, .package-decor, .package-heading, .course-subtitle, .course-heading, .course-card-title, .course-card-text, .course-sales-group, .course-amount-group, .review-subtitle, .review-heading, .review-text, .faq-heading, .faq-title, .newsletter-subtitle, .newsletter-heading, .footer-heading {
+        margin-bottom: calc(1em * 0.8);
     }
-    .nav-links-auth {
-        margin-top: 20px;
-        flex-direction: column;
-        align-items: center;
-        gap: 15px;
+
+    .hero-heading { font-size: 42px; line-height: 58px; }
+    .expert-heading, .package-heading, .course-heading, .review-heading, .faq-heading, .newsletter-heading { font-size: 32px; line-height: 42px; }
+    .hero-description { font-size: 16px; line-height: 26px; }
+    .navbar-brand { font-size: 20px; }
+    .hero-subtitle, .feature-card-title, .course-card-title, .faq-title, .footer-heading, .course-price-old, .course-price-sale { font-size: 14px; }
+    .nav-links-primary .nav-link, .nav-links-auth .nav-link, .btn-signup, .btn-cta-primary, .btn-cta-outline, .feature-card-text, .expert-text, .expert-link, .package-link, .course-subtitle, .course-intro-text, .course-sale-badge, .course-category-link, .course-sales-text, .course-learn-btn, .review-subtitle, .review-intro-text, .review-text, .review-user-name, .faq-intro-text, .faq-text, .newsletter-subtitle, .newsletter-intro-text, .newsletter-input, .newsletter-btn, .footer-link, .footer-contact-text, .footer-copyright { font-size: 12px; }
+    
+    .btn-signup, .btn-cta-primary, .btn-cta-outline { padding: 10px 20px; }
+    .course-learn-btn { padding: 6px 15px; }
+    .newsletter-input { padding: 10px 15px; }
+    .package-play-btn { width: 75px; height: 75px; font-size: 18px; }
+    .course-action-icon { padding: 8px; }
+
+    .nav-links-primary, .nav-links-auth, .hero-btn-group, .feature-card, .expert-link-group, .package-link-group, .course-img-actions, .course-rating, .course-sales-group, .course-amount-group, .review-stars, .review-profile, .faq-box, .footer-list, .footer-contact, .footer-contact-box, .footer-socials {
+        gap: calc(1em * 0.8);
     }
-    .nav-links-primary {
-        align-items: center;
-        gap: 10px;
-    }
-    .footer-top-container {
-        flex-direction: column;
-    }
-    .footer-bottom-container {
-        flex-direction: column;
-        gap: 15px;
-        text-align: center;
-    }
+    .feature-row, .course-row, .review-row, .faq-row { row-gap: 24px; }
+
+    .nav-links-auth { flex-direction: column; align-items: center; gap: 15px; margin-top: 20px; }
+    .nav-links-primary { align-items: center; gap: 10px; }
+    .footer-top-container, .footer-bottom-container { flex-direction: column; gap: 15px; text-align: center; }
+    .course-img-container { height: 260px; }
 }
 
 @media (max-width: 575px) {
-    .hero-heading {
-        font-size: 32px;
-        line-height: 40px;
+    /* Section padding exception rule */
+    .hero-content { padding: 60px 0; height: auto; }
+    .feature-section, .expert-section, .package-section, .course-section, .review-section, .faq-section, .newsletter-section, .footer-section { padding-top: 60px; padding-bottom: 60px; }
+    
+    .hero-subtitle, .hero-heading, .hero-description, .feature-card-title, .feature-decor, .expert-decor, .expert-heading, .expert-text, .package-decor, .package-heading, .course-subtitle, .course-heading, .course-card-title, .course-card-text, .course-sales-group, .course-amount-group, .review-subtitle, .review-heading, .review-text, .faq-heading, .faq-title, .newsletter-subtitle, .newsletter-heading, .footer-heading {
+        margin-bottom: calc(1em * 0.7);
     }
-    .hero-content {
-        padding: 60px 0;
+
+    .hero-heading { font-size: 34px; line-height: 46px; }
+    .expert-heading, .package-heading, .course-heading, .review-heading, .faq-heading, .newsletter-heading { font-size: 28px; line-height: 38px; }
+    .hero-description { font-size: 15px; line-height: 24px; }
+    .navbar-brand { font-size: 18px; }
+    .hero-subtitle, .feature-card-title, .course-card-title, .faq-title, .footer-heading, .course-price-old, .course-price-sale { font-size: 13px; }
+    .nav-links-primary .nav-link, .nav-links-auth .nav-link, .btn-signup, .btn-cta-primary, .btn-cta-outline, .feature-card-text, .expert-text, .expert-link, .package-link, .course-subtitle, .course-intro-text, .course-sale-badge, .course-category-link, .course-sales-text, .course-learn-btn, .review-subtitle, .review-intro-text, .review-text, .review-user-name, .faq-intro-text, .faq-text, .newsletter-subtitle, .newsletter-intro-text, .newsletter-input, .newsletter-btn, .footer-link, .footer-contact-text, .footer-copyright { font-size: 11px; }
+
+    .btn-signup, .btn-cta-primary, .btn-cta-outline { padding: 8px 16px; }
+    .course-learn-btn { padding: 5px 12px; }
+    .newsletter-input { padding: 8px 12px; border-radius: 5px; }
+    .package-play-btn { width: 65px; height: 65px; font-size: 16px; }
+    .course-action-icon { padding: 7px; }
+
+    .nav-links-primary, .nav-links-auth, .hero-btn-group, .feature-card, .expert-link-group, .package-link-group, .course-img-actions, .course-rating, .course-sales-group, .course-amount-group, .review-stars, .review-profile, .faq-box, .footer-list, .footer-contact, .footer-contact-box, .footer-socials {
+        gap: calc(1em * 0.7);
     }
-    .feature-section,
-    .expert-section,
-    .package-section,
-    .course-section,
-    .review-section,
-    .faq-section,
-    .newsletter-section {
-        padding: 50px 0;
-    }
-    .course-img-container {
-        height: 200px;
-    }
-    .newsletter-form {
-        flex-direction: column;
-    }
-    .newsletter-form .col-8,
-    .newsletter-form .col-4 {
-        width: 100%;
-    }
-    .newsletter-btn {
-        border-radius: 5px;
-        margin-top: 10px;
-        padding: 15px;
-    }
-    .newsletter-input {
-        border-radius: 5px;
-    }
+    .feature-row, .course-row, .review-row, .faq-row { row-gap: 21px; }
+
+    .newsletter-form { flex-direction: column; }
+    .newsletter-form .col-8, .newsletter-form .col-4 { width: 100%; }
+    .newsletter-btn { border-radius: 5px; margin-top: 10px; padding: 12px; }
+    .course-img-container { height: 220px; }
 }
 
 @media (max-width: 320px) {
-    .hero-heading {
-        font-size: 28px;
-        line-height: 36px;
+    /* Section padding exception rule */
+    .hero-content { padding: 60px 0; height: auto; }
+    .feature-section, .expert-section, .package-section, .course-section, .review-section, .faq-section, .newsletter-section, .footer-section { padding-top: 60px; padding-bottom: 60px; }
+    
+    .hero-subtitle, .hero-heading, .hero-description, .feature-card-title, .feature-decor, .expert-decor, .expert-heading, .expert-text, .package-decor, .package-heading, .course-subtitle, .course-heading, .course-card-title, .course-card-text, .course-sales-group, .course-amount-group, .review-subtitle, .review-heading, .review-text, .faq-heading, .faq-title, .newsletter-subtitle, .newsletter-heading, .footer-heading {
+        margin-bottom: calc(1em * 0.5);
     }
-    .btn-cta-primary,
-    .btn-cta-outline {
-        width: 100%;
-        text-align: center;
+
+    .hero-heading { font-size: 28px; line-height: 40px; }
+    .expert-heading, .package-heading, .course-heading, .review-heading, .faq-heading, .newsletter-heading { font-size: 24px; line-height: 32px; }
+    .hero-description { font-size: 14px; line-height: 22px; }
+    .navbar-brand { font-size: 16px; }
+    .hero-subtitle, .feature-card-title, .course-card-title, .faq-title, .footer-heading, .course-price-old, .course-price-sale { font-size: 12px; }
+    .nav-links-primary .nav-link, .nav-links-auth .nav-link, .btn-signup, .btn-cta-primary, .btn-cta-outline, .feature-card-text, .expert-text, .expert-link, .package-link, .course-subtitle, .course-intro-text, .course-sale-badge, .course-category-link, .course-sales-text, .course-learn-btn, .review-subtitle, .review-intro-text, .review-text, .review-user-name, .faq-intro-text, .faq-text, .newsletter-subtitle, .newsletter-intro-text, .newsletter-input, .newsletter-btn, .footer-link, .footer-contact-text, .footer-copyright { font-size: 10px; }
+
+    .btn-signup, .btn-cta-primary, .btn-cta-outline { padding: 6px 12px; width: 100%; text-align: center; }
+    .course-learn-btn { padding: 4px 10px; }
+    .newsletter-input { padding: 6px 10px; }
+    .package-play-btn { width: 55px; height: 55px; font-size: 14px; }
+    .course-action-icon { padding: 5px; }
+
+    .nav-links-primary, .nav-links-auth, .hero-btn-group, .feature-card, .expert-link-group, .package-link-group, .course-img-actions, .course-rating, .course-sales-group, .course-amount-group, .review-stars, .review-profile, .faq-box, .footer-list, .footer-contact, .footer-contact-box, .footer-socials {
+        gap: calc(1em * 0.5);
     }
-    .expert-heading,
-    .package-heading,
-    .course-heading,
-    .review-heading,
-    .faq-heading,
-    .newsletter-heading {
-        font-size: 24px;
-        line-height: 32px;
-    }
+    .feature-row, .course-row, .review-row, .faq-row { row-gap: 15px; }
+    
+    .hero-btn-group { flex-direction: column; }
+    .btn-cta-outline { margin-top: 10px; }
+    .course-img-container { height: 180px; }
 }
