@@ -435,9 +435,9 @@ Frame: Package-section (Level 1)
             Frame: Img (Level 4)
             Layout: assets/images/books.svg width-100% object-fit-cover position-relative
 
-                Frame: Icon (Level 5)
+                Frame: Button - Play Video (Level 5)
                 Content: icon(fa-play)
-                Layout: position-absolute top-50% left-50% translate(-50%,-50%) padding-34.8px-36.8px background-#8D5CF6 width: 18.999996185302734 height: 22.9999942779541 angle: 0 deg opacity: 1
+                Layout: button position-absolute data-bs-toggle="modal" data-bs-target="#courseVideoModal" top-50% left-50% translate(-50%,-50%) background-#8D5CF6
 
 Frame: Course-section (Level 1)
 

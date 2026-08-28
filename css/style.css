@@ -250,6 +250,8 @@ a {
     height: 92px;
     background-color: var(--cta-primary);
     border-radius: 50%;
+    border: none;
+    outline: none;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);

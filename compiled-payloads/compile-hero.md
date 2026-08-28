@@ -127,7 +127,7 @@ Package-section (Level 1)
     │   └── Link group — d-flex, align-items-center, gap: 10px
     └── Image Container (Level 3) — col
         └── Img: assets/images/books.svg (position: relative)
-            └── Icon fa-play — position: absolute, centered, bg: #8D5CF6
+            └── Button (Play Video) — position: absolute, centered, bg: #8D5CF6, data-bs-toggle="modal", data-bs-target="#courseVideoModal"
 ```
 
 ---
