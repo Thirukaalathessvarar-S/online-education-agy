@@ -325,6 +325,11 @@ a {
 .course-action-icon {
     background-color: var(--text-white);
     border-radius: 50%;
+    border: none;
+    outline: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     padding: 10px;
     cursor: pointer;
 }

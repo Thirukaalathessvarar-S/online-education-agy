@@ -508,17 +508,20 @@ Frame: Course-section (Level 1)
                     Frame: Image Group (Level 6)
                     Layout: d-flex gap-10px position-absolute
 
-                        Frame: Image Container (Level 7)
+                        Frame: Button - Action Icon (Level 7)
+                        Layout: button
 
                             Frame: Img (Level 8)
                             Layout: assets/images/like.svg width-100% object-fit-cover
 
-                        Frame: Image Container (Level 7)
+                        Frame: Button - Action Icon (Level 7)
+                        Layout: button
 
                             Frame: Img (Level 8)
                             Layout: assets/images/basket.svg width-100% object-fit-cover
 
-                        Frame: Image Container (Level 7)
+                        Frame: Button - Action Icon (Level 7)
+                        Layout: button
 
                             Frame: Img (Level 8)
                             Layout: assets/images/views.svg width-100% object-fit-cover
@@ -667,17 +670,20 @@ Frame: Course-section (Level 1)
                     Frame: Image Group (Level 6)
                     Layout: d-flex gap-10px position-absolute
 
-                        Frame: Image Container (Level 7)
+                        Frame: Button - Action Icon (Level 7)
+                        Layout: button
 
                             Frame: Img (Level 8)
                             Layout: assets/images/like.svg width-100% object-fit-cover
 
-                        Frame: Image Container (Level 7)
+                        Frame: Button - Action Icon (Level 7)
+                        Layout: button
 
                             Frame: Img (Level 8)
                             Layout: assets/images/basket.svg width-100% object-fit-cover
 
-                        Frame: Image Container (Level 7)
+                        Frame: Button - Action Icon (Level 7)
+                        Layout: button
 
                             Frame: Img (Level 8)
                             Layout: assets/images/views.svg width-100% object-fit-cover
@@ -827,17 +833,20 @@ Frame: Course-section (Level 1)
                     Frame: Image Group (Level 6)
                     Layout: d-flex gap-10px position-absolute
 
-                        Frame: Image Container (Level 7)
+                        Frame: Button - Action Icon (Level 7)
+                        Layout: button
 
                             Frame: Img (Level 8)
                             Layout: assets/images/like.svg width-100% object-fit-cover
 
-                        Frame: Image Container (Level 7)
+                        Frame: Button - Action Icon (Level 7)
+                        Layout: button
 
                             Frame: Img (Level 8)
                             Layout: assets/images/basket.svg width-100% object-fit-cover
 
-                        Frame: Image Container (Level 7)
+                        Frame: Button - Action Icon (Level 7)
+                        Layout: button
 
                             Frame: Img (Level 8)
                             Layout: assets/images/views.svg width-100% object-fit-cover

@@ -142,9 +142,9 @@ Course-section (Level 1)
     │   ├── H2 — "Our Popular Courses"
     │   └── Paragraph
     └── Course Container (Level 3) — row, row-cols-3, gap/gutter: 10px
-        ├── Card 1 — Img: pencils.svg, Link: "For Better Future", H5: "2,769 online courses"
-        ├── Card 2 — Img: library.svg, Link: "Welcome", H5: "Training Courses"
-        └── Card 3 — Img: apple.svg, Link: "Welcome", H5: "Books Liberary"
+        ├── Card 1 — Img: pencils.svg, Action Buttons (Like, Basket, Views), Link: "For Better Future", H5: "2,769 online courses"
+        ├── Card 2 — Img: library.svg, Action Buttons (Like, Basket, Views), Link: "Welcome", H5: "Training Courses"
+        └── Card 3 — Img: apple.svg, Action Buttons (Like, Basket, Views), Link: "Welcome", H5: "Books Liberary"
 ```
 
 ---
